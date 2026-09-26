@@ -1,0 +1,19 @@
+/* Extracted from index.html */
+
+/* Industrial low-saturation badge tokens */
+    .ibadge { display: inline-flex; align-items: center; padding: 2px 6px; font-size: 11px; font-weight: 600; border-radius: 2px; line-height: 1; }
+    .ibadge-pending { background-color: #fff8e6; color: #8f6000; border: 1px solid #ffe199; }
+    .ibadge-approved { background-color: #ebfaef; color: #086e24; border: 1px solid #b6ebc4; }
+    .ibadge-corrected { background-color: #eff6ff; color: #0c4a9e; border: 1px solid #bfdbfe; }
+    .ibadge-rejected { background-color: #fdf2f2; color: #9e1a1a; border: 1px solid #f8b4b4; }
+    
+    /* Strict, non-bouncy table rows */
+    .eng-table th { background: #eaedf1; color: #3b424e; font-size: 11px; text-transform: uppercase; font-weight: 700; letter-spacing: 0.03em; border-bottom: 1px solid #cbd2dc; }
+    .eng-table td { font-size: 12px; border-bottom: 1px solid #e5e9f0; vertical-align: middle; }
+    .eng-table tr:hover td { background-color: #f8fafc; }
+    
+    /* Native crisp progress tracking bars */
+    .prog-track { background: #e2e7ec; height: 18px; border-radius: 2px; overflow: hidden; border: 1px solid #cbd2dc; }
+    .prog-fill-blue { background: #0b5ed7; }
+    .prog-fill-amber { background: #d97706; }
+    .prog-fill-green { background: #198754; }
